@@ -45,13 +45,14 @@ dependencies {
     implementation 'log4j:log4j:1.2.17'
     implementation 'com.jfinal:jfinal:3.3'
     implementation 'com.jfinal:cos:26Dec2008'
+    implementation "com.jfinal:jetty-server:8.1.8"
     implementation 'c3p0:c3p0:0.9.1.2'
     implementation "mysql:mysql-connector-java:${mysql_connector_java_version}"
     implementation 'org.freemarker:freemarker:2.3.23'
     implementation 'com.alibaba:fastjson:1.2.7'
     implementation 'net.sourceforge.javacsv:javacsv:2.0'
     implementation 'it.sauronsoftware.cron4j:cron4j:2.2.5'
-    implementation 'javaee:javaee-api:5'
+    // implementation 'javaee:javaee-api:5'
     implementation 'javax.servlet:javax.servlet-api:4.0.1'
 
     compileOnly "org.projectlombok:lombok:${lombok_version}"
